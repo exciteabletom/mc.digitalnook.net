@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: center;
+}
+.mainText {
+    max-width: 500px;
+    min-width: 60%;
+    background: #34343488;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.mainText ol {
+    margin: 0;
+}
