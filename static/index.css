@@ -30,3 +30,24 @@ nav > a > button:hover {
     transform: scale(1.05);
 }
 
+footer {
+    width: 100%;
+
+    display: flex;
+    position: absolute;
+    bottom:1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+footer a:hover {
+    transform: scale(1.05);
+}
+
