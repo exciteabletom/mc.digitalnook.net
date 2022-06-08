@@ -1,0 +1,20 @@
+html {
+  font-family: ReadexPro, sans-serif;
+}
+
+@font-face {
+  src: url("/static/fonts/ReadexPro-Regular.woff2") format("woff2"),
+       url("/static/fonts/ReadexPro-Regular.ttf") format("ttf");
+  font-family: ReadexPro;
+  font-weight: normal;
+  font-display: block;
+}
+
+@font-face {
+  src: url("/static/fonts/ReadexPro-Bold.woff2") format("woff2"),
+       url("/static/fonts/ReadexPro-Bold.ttf") format("ttf");
+  font-family: ReadexPro;
+  font-weight: bold;
+  font-display: block;
+}
+

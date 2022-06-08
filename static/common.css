@@ -4,13 +4,12 @@
 
 html {
     color: #dfdfdf;
-    font-family: sans-serif;
     box-sizing: border-box;
 
     background-color: #343434;
-    background-image: url("/static/images/landscape.webp");
+    background-image: url("/static/images/favicon.ico");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
@@ -25,10 +24,21 @@ button {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    -webkit-text-stroke: 0.05rem #000;
     text-align: center;
 }
 
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    padding: 0.5rem;
+    display: inline;
+    border-radius: 0.25rem;
+    background-color: #378607;
+    border: black solid 4px;
+}
 
 .home_button {
     position: absolute;
@@ -36,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 1rem;
     color: #fff;
     text-decoration: none;
-    background: #ffffff44;
+    background: #343434;
     padding: 0.5rem;
     border-radius: 0.5rem;
 
